@@ -190,6 +190,15 @@ section p {
         width: 100%; 
         margin-bottom: 20px; 
     }
+    #footer_content {
+        flex-direction: column; 
+        padding: 2rem; 
+    }
+
+    #footer_content > * {
+        flex: 1 1 auto; 
+        margin-bottom: 1rem;
+    }
 }
 
 
@@ -211,6 +220,7 @@ footer {
 #footer_content {
     background-color: grey;
     display: flex;
+    flex-wrap: wrap;
     padding: 3rem 5rem ;
     margin-bottom: 1.5rem;
     gap: 2rem;
